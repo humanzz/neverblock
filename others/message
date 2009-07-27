@@ -1,9 +1,0 @@
-Getting NeverBlock mysql to work on Rails 2.3.0 RC and Ruby 1.9.1.
-
-NeverBlock now uses ActiveRecord's ConnectionPool instead of defining its own
-version. It should also work on Rails 2.2 ActiveRecord but Rails 2.2 doesn't
-work on Ruby 1.9.1 so I had to use Rails 2.3.0 RC.
-
-This commit will break support for earlier versions of Rails.
-
-PG support is still to come.
